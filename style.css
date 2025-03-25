@@ -1,0 +1,115 @@
+/* whole pahe styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+ a{
+    text-decoration: none;
+    color: white;
+ }
+ ul{
+    list-style-type: none;
+ }
+ nav{
+    background-color: #2C6B2F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+ }
+ nav.logo img{
+    width: 50px;
+ }
+ nav ul{
+    display: flex;
+ }
+ nav ul li {
+    margin-left: 20px;
+ }
+ nav ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+ }
+ nav .login-button{
+    background-color: #E1A94C;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+ }
+ .header-section{
+    background-color: rgb(51, 77, 51);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+ }
+ .header-content h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+ }
+.slogan{
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #E1A94C;
+}
+.About-us h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.About-us p{
+    font-style: bold;
+}
+.services{
+    padding: 50px 20px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.services h2{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.Cards-services{
+    display: flex;
+    justify-content: space-around;
+}
+.Cards-services{
+    display: flex;
+    justify-content: space-around;
+}
+.Cards{
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 20%;
+    box-shadow: 0 4px 6px rgba(15, 15, 15, 0.1);
+    border-radius: 10px;
+}
+
+.Cards h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.Cards p{
+    font-size: 1rem;
+}
+footer{
+    background-color: #2C6B2F;
+    color: aliceblue;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .social-media{
+    margin-right: 20px;
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+footer .social-media a:hover{
+    color: #E1A94C;
+}
