@@ -1,0 +1,45 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "name": "Camping Gears",
+            "description": "High quality gear for all your outdoor needs.",
+            "image" : ""
+          
+        },
+        {
+            "id": 2,
+            "name": "Starlit camping",
+            "description": "High quality gear for all your outdoor needs.",
+            "image" : ""
+           
+
+
+        },
+        {
+            "id": 3,
+            "name": "Wildlife Photography",
+            "description": "High quality gear for all your outdoor needs.",
+            "image" : ""
+           
+
+        },
+        {
+            "id": 4,
+            "name": "Guided Hikes",
+            "description": "Explore nature with our professional guides.",
+            "image" : ""
+          
+
+        },
+        {
+            "id": 5,
+            "name": "zip-lining",
+            "description": "Enjoy an adventurous zip-lining experience.",
+            "image" : ""
+           
+        }
+    ]
+
+    
+}
