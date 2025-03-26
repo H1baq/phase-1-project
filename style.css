@@ -1,4 +1,4 @@
-/* whole pahe styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +8,8 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    overflow-x: hidden;
+    min-height: 100vh;
 }
  a{
     text-decoration: none;
@@ -17,7 +19,7 @@ body {
     list-style-type: none;
  }
  nav{
-    background-color: #2C6B2F;
+    background-color: rgb(126, 99, 55);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,31 +46,51 @@ body {
     text-align: center;
  }
  .header-section{
-    background-color: rgb(51, 77, 51);
     color: white;
-    padding: 30px 20px;
+    padding: 0;
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+ }
+ .header-section img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+ .header-content{
+    position: relative;
+    z-index: 1;
     text-align: center;
+    padding: 30px 20px;
+
  }
  .header-content h1{
     font-size: 3rem;
-    margin-bottom: 10px;
+    
  }
 .slogan{
     font-size: 1.2rem;
     font-style: italic;
     color: #E1A94C;
 }
+
 .About-us h2{
     font-size: 2rem;
-    margin-bottom: 20px;
 }
 .About-us p{
     font-style: bold;
 }
 .services{
     padding: 50px 20px;
-    background-color: whitesmoke;
+    background-color: rgb(170, 165, 165);
     text-align: center;
+    margin-bottom: 50px;
 }
 .services h2{
     font-size: 2.5rem;
@@ -77,6 +99,7 @@ body {
 .Cards-services{
     display: flex;
     justify-content: space-around;
+    gap: 2px;
 }
 .Cards-services{
     display: flex;
@@ -85,7 +108,7 @@ body {
 .Cards{
     background-color: whitesmoke;
     padding: 20px;
-    width: 20%;
+    width: 30%;
     box-shadow: 0 4px 6px rgba(15, 15, 15, 0.1);
     border-radius: 10px;
 }
@@ -93,6 +116,7 @@ body {
 .Cards h3{
     font-size: 1.5rem;
     margin-bottom: 10px;
+    height: 50vh;
 }
 .Cards p{
     font-size: 1rem;
@@ -104,11 +128,13 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 footer .social-media{
     margin-right: 20px;
     font-size: 1.2rem;
     color: aliceblue;
+    display: none;
 }
 footer .social-media a:hover{
     color: #E1A94C;
