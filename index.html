@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!--fontbawsome link-->
+</head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Under The Startlit Flame</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="index.js"></script>
 
     <!--Navigation bar-->
     <nav>
         <!-- Site logo-->
         <div class="logo">
-            <img src="" alt="Under The Starlit Flame">
-            <P class="slogan">"Explore the Wilderness, Live the Adventure"</P>
+          <img src="https://seeklogo.com/images/C/camping-logo-7A9A8C003B-seeklogo.com.png">
+          <P class="slogan">"Explore the Wilderness, <br>Live the Adventure"</br></P>
 
         </div>
+
     <ul>
         <!--navvigation bar icons-->
-        <li><a href="home">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#aboutus">About Us</a></li>
         <li><a href="#" id="social-media-nav">Social Media</a></li>
-        <li><a href="contacts">Contacts</a></li>
-        <li><a href="login" class="login-button">Login</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#login" class="login-button">Login</a></li>
     </ul>
   </nav> 
   <!--landing page message-->
@@ -36,25 +40,12 @@
 </section>
   <section id="aboutus" class="About-us">
     <h2>About Us</h2>
-    <p>We provide you with all the essentials for experiencing unforgettable camping adventures. From tents and gears to booking your next camping destination with a click of a button!</p>
+    <p>We provide you with all the essentials for experiencing unforgettable camping adventures.<br> From tents and gears to booking your next camping destination with a click of a button!</br</p>
   </section> 
   <section class="services">
     <h2>Our Services </h2>
-    <div class="Cards-services">
-        <div class="Cards">
-        <h3>Camping Gears</h3>
-        <p>High quality gear for all your outdoor needs.</p>
-    </div>
-    <div class="Cards">
-        <h3>Starlit camping</h3>
-        <p>Join our Adventurous under the starts night camps to discover the night's wonders.</p>
-
-    </div>
-    <div class="Cards">
-        <h3>Wildlife Photography</h3>
-        <p>Capture the beauty of nature with our wildlife photography sessions.</p>
-
-    </div>
+    <div id="service-container"></div> 
+  </section>
   </section>
   <footer id="contacts">
     <div class="contact informations">
@@ -68,6 +59,8 @@
         <a href="http://www.twitter.com/underTheStarlitFlame" class="social icon">Twitter</a>
     </div>
   </footer>
+  <script src="script.js"></script>
+
 
 </body>
 </html>

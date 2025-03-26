@@ -4,14 +4,14 @@
             "id": 1,
             "name": "Camping Gears",
             "description": "High quality gear for all your outdoor needs.",
-            "image" : ""
+            "image" : "https://camprentique.ca/cdn/shop/products/SoloPackages-2.png?v=1657895574"
           
         },
         {
             "id": 2,
             "name": "Starlit camping",
             "description": "Experience camping under the stars with us",
-            "image" : ""
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxu9R6D8_tvlR2xWDq99EDpIGziasEIn6_wQ&s"
            
 
 
@@ -20,7 +20,7 @@
             "id": 3,
             "name": "Wildlife Photography",
             "description": "High quality gear for all your outdoor needs.",
-            "image" : ""
+            "image" : "https://iso.500px.com/wp-content/uploads/2015/03/cover_2048.jpg"
            
 
         },
@@ -28,7 +28,7 @@
             "id": 4,
             "name": "Guided Hikes",
             "description": "Explore nature with our professional guides.",
-            "image" : ""
+            "image" : "https://cdn.outsideonline.com/wp-content/uploads/2023/04/guided-hike_h.jpg"
           
 
         },
@@ -36,7 +36,7 @@
             "id": 5,
             "name": "zip-lining",
             "description": "Enjoy an adventurous zip-lining experience.",
-            "image" : ""
+            "image" : "https://coralcrater.com/wp-content/uploads/2024/01/Zipline-3-Video.webp"
            
         }
     ]
