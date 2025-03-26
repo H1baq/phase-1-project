@@ -35,4 +35,3 @@ document.addEventListener('DOMContentLoaded',() =>{
     })
     .catch(error => console.error("Fetching services unsuccsseful:", error));
 });
-
