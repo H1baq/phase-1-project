@@ -31,7 +31,23 @@ document.addEventListener('DOMContentLoaded',() =>{
             servicescontainer.appendChild(serviceCard);
     
 
-        })
+        });
     })
     .catch(error => console.error("Fetching services unsuccsseful:", error));
+
+    document.getElementById('Search-bar').addEventListener('input', (Event) => {
+        const searchBox = event.target.value.toLowerCase();
+        document.querySelectorAll('.Cards').forEach(card => {
+            const name =card.querySelector('h2').textContent.toLowerCase();
+
+        });
+    })
+    document.getElementById('explore-btn').addEventListener('click', () => {
+        document.querySelector('.services').scrollIntoView({ behavior: 'smooth'});
+    });
+
+    
+
+    
 });
+
