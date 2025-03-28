@@ -12,6 +12,8 @@ Future Enhancements
 * User Registration and profile- It will allow users to create accounts, save favourite campsites and tract past bookings.
 * Review and Rating section- It will allow users to leave reviews and ratings for different camping sites.
 * Exclusive Camping gears store \- Asection where users can purchase or rent camping equipments.
+* Search functionality- A fully functioning search bar which allows users to find specific camping sites or services quicker.
+* Booking system- Users can book camping trips based on available slots through a 'Book now' button.
 
 Technologies used
 This website is built using HTML, CSS, and JavaScript within the visual studio Code environment. It includes a db.json file which stores the dat used to fill the cards.
