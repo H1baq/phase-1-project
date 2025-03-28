@@ -1,4 +1,5 @@
-UNDER THE STARLIT FLAME
+UNDER THE STARLIT FLAME by Hibaq Adan Kuresh.
+
 This is a single paged website that allows users to explore, discover and experience different camping adventures. Our main goal is to connect enthusiasts with he best camping destinations, making adventure planning hustle-less and enjoyable with just a click of a button. User can browse available services under our services section, access essential camping gears -all in one place.
 
 
@@ -23,3 +24,6 @@ If you'd like to contribute to improving Under the Starlit Flame, feel free to s
 
 Contacts:
 Please reach me at Hibaqkuresh@student.moringaschool.com
+
+License 
+This project is open-source and available under the MIT License.
