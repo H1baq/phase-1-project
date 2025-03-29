@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*ensures smooth scrolling when navigating through the page*/
 html {
     scroll-behavior: smooth;
 }
@@ -10,16 +11,19 @@ html {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    overflow-x: hidden;
-    min-height: 100vh;
+    overflow-x: hidden; /*prevents horizontal scrolling*/
+    min-height: 100vh; /*full viewpoint heigh*/
 }
+
  a{
     text-decoration: none;
     color: white;
  }
+
  ul{
     list-style-type: none;
  }
+
  nav{
     background-color:rgb(31, 31, 51);
     display: flex;
@@ -28,29 +32,31 @@ body {
     padding: 10px 30px;
     height: 30vh;
  }
+
  nav .logo img{
     width: 100px;
     height: auto;
-    
-    
+       
  }
  nav ul{
     display: flex;
  }
  nav ul li {
-    margin-left: 20px;
+    margin-left: 20px; /*spacing btwn menu items*/
  }
  nav ul li a{
     color: white;
     font-size: 18px;
     font-weight: bold;
  }
+
  nav .login-button{
     background-color: #E1A94C;
     padding: 10px 20px;
     border-radius: 5px;
     text-align: center;
  }
+ /*Responsive navigation for small screens*/
  @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
@@ -60,6 +66,7 @@ body {
         margin: 10px 0;
     }
  }
+
  .header-section{
     color: white;
     padding: 0;
@@ -71,6 +78,7 @@ body {
     text-align: center;
     
  }
+
  .header-section img {
     width: 100%;
     height: 100%;
@@ -80,6 +88,7 @@ body {
     z-index: 1;
 
  }
+
  .header-content{
     position: absolute;
     padding: 30px 20px;
@@ -87,6 +96,7 @@ body {
     align-items: center
 
  }
+
  .header-content h1{
     font-size: 2rem;
     z-index: 3;
@@ -95,6 +105,7 @@ body {
     color: black;
     font-weight: bold;
  }
+
  .header-content p{
     position: relative;
     z-index: 3;
@@ -198,9 +209,6 @@ nav .slogan{
     margin-bottom: 10px;
 }
 
-.cards:hover {
-    transform: scale(1.05);
-}
 .Cards-services{
     display: flex;
     flex-wrap: wrap;
