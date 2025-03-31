@@ -29,20 +29,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
+    padding: 0;
     height: 30vh;
  }
+ nav .slogan{
+    font-size: 1rem;
+    color: #E1A94C;
+    white-space: nowrap;
+    
+}
 
  nav .logo img{
     width: 100px;
-    height: auto;
+    height: 50%;
        
  }
  nav ul{
     display: flex;
  }
  nav ul li {
-    margin-left: 20px; /*spacing btwn menu items*/
+    margin-left: 100px; /*spacing btwn menu items*/
  }
  nav ul li a{
     color: white;
@@ -63,18 +69,16 @@ body {
         align-items: center;
     }
     nav ul li {
-        margin: 10px 0;
+        margin: 10p;
     }
  }
 
  .header-section{
-    color: white;
     padding: 0;
     position: relative;
-    height: 60vh;
+    height: 100vh;
     overflow: hidden;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 0;
     text-align: center;
     
  }
@@ -82,10 +86,10 @@ body {
  .header-section img {
     width: 100%;
     height: 100%;
-    object-fit: cover;position: absolute;
+    object-fit: cover; 
+    position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
 
  }
 
@@ -134,11 +138,7 @@ body {
     background-color: #cf8f3a;
 }
  
-nav .slogan{
-    font-size: 1rem;
-    color: #E1A94C;
-    
-}
+
 
 .About-us h2{
     font-size: 2.5rem;
@@ -147,14 +147,15 @@ nav .slogan{
     font-weight: bold;
     color: black;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 .About-us p{
     font-size: 1.3rem;
     text-align:center ;
     font-weight: normal;
-    max-width: 80%;
     margin: 0 auto;
     line-height: 1.6;
+    
 
     
 }
