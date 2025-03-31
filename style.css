@@ -243,6 +243,12 @@ footer{
     align-items: center;
     margin-top: 50px;
 }
+.Copyright{
+    text-align: center;
+    flex-grow: 1;
+    font-size: 1rem;
+    background-color: #1a2c1b;
+}
 .social-media {
     text-align: center; 
     padding: 20px;
@@ -267,10 +273,16 @@ footer{
     padding: 10px 15px;
     border-radius: 5px;
     transition: 0.3s ease-in-out;
-    background-color: #cf8f3a;; 
 }
 
 .social-media-footer a:hover {
     background-color: #023e8a; 
+    transform: scale(1.1);
+}
+
+
+
+.social-icon:hover {
+    background-color: #023e8a;
     transform: scale(1.1);
 }
