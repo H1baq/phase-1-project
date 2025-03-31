@@ -57,11 +57,14 @@ body {
  }
 
  nav .login-button{
-    background-color: #E1A94C;
     padding: 10px 20px;
     border-radius: 5px;
     text-align: center;
  }
+ nav .login-button:hover{
+    background-color: #023e8a;
+ }
+
  /*Responsive navigation for small screens*/
  @media (max-width: 600px) {
     nav ul {

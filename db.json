@@ -1,45 +1,120 @@
 {
-    "services": [
-        {
-            "id": 1,
-            "name": "Camping Gears",
-            "description": "High quality camping equipments for all your outdoor needs.",
-            "image" : "https://i.pinimg.com/736x/34/4c/1c/344c1cdab7083184ea943bfa9e03d221.jpg"
-          
-        },
-        {
-            "id": 2,
-            "name": "Starlit camping",
-            "description": "Experience camping under the stars with us",
-            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxu9R6D8_tvlR2xWDq99EDpIGziasEIn6_wQ&s"
-           
-
-
-        },
-        {
-            "id": 3,
-            "name": "Nature Photography",
-            "description": "Capture breathtaking landscapes of nature perfect for nature lovers and adventure seekers .",
-            "image" : "https://iso.500px.com/wp-content/uploads/2015/03/cover_2048.jpg"
-           
-
-        },
-        {
-            "id": 4,
-            "name": "Guided Hikes",
-            "description": "Explore nature with our professional guides.",
-            "image" : "https://cdn.outsideonline.com/wp-content/uploads/2023/04/guided-hike_h.jpg"
-          
-
-        },
-        {
-            "id": 5,
-            "name": "zip-lining",
-            "description": "Enjoy an adventurous zip-lining experience.",
-            "image" : "https://coralcrater.com/wp-content/uploads/2024/01/Zipline-3-Video.webp"
-           
-        }
-    ]
-
-    
+  "services": [
+    {
+      "id": "1",
+      "name": "Camping Gears",
+      "description": "High quality camping equipments for all your outdoor needs.",
+      "image": "https://i.pinimg.com/736x/34/4c/1c/344c1cdab7083184ea943bfa9e03d221.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Starlit camping",
+      "description": "Experience camping under the stars with us",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxu9R6D8_tvlR2xWDq99EDpIGziasEIn6_wQ&s"
+    },
+    {
+      "id": "3",
+      "name": "Nature Photography",
+      "description": "Capture breathtaking landscapes of nature perfect for nature lovers and adventure seekers .",
+      "image": "https://iso.500px.com/wp-content/uploads/2015/03/cover_2048.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Guided Hikes",
+      "description": "Explore nature with our professional guides.",
+      "image": "https://cdn.outsideonline.com/wp-content/uploads/2023/04/guided-hike_h.jpg"
+    },
+    {
+      "id": "5",
+      "name": "zip-lining",
+      "description": "Enjoy an adventurous zip-lining experience.",
+      "image": "https://coralcrater.com/wp-content/uploads/2024/01/Zipline-3-Video.webp"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "01",
+      "name": "",
+      "email": "",
+      "service": ""
+    },
+    {
+      "id": "02",
+      "name": "",
+      "email": "",
+      "service": ""
+    },
+    {
+      "id": "03",
+      "name": "",
+      "email": "",
+      "service": ""
+    },
+    {
+      "id": "04",
+      "name": "",
+      "email": "",
+      "service": ""
+    },
+    {
+      "id": "05",
+      "name": "",
+      "email": "",
+      "service": ""
+    },
+    {
+      "id": "06",
+      "name": "",
+      "email": "",
+      "service": ""
+    },
+    {
+      "id": "07",
+      "name": "",
+      "email": "",
+      "service": ""
+    },
+    {
+      "id": "08",
+      "name": "",
+      "email": "",
+      "service": ""
+    },
+    {
+      "id": "09",
+      "name": "",
+      "email": "",
+      "service": ""
+    },
+    {
+      "id": "10",
+      "name": "",
+      "email": "",
+      "service": ""
+    },
+    {
+      "id": "11",
+      "name": "",
+      "email": "",
+      "service": ""
+    },
+    {
+      "id": "12",
+      "name": "",
+      "email": "",
+      "service": ""
+    },
+    {
+      "id": "13",
+      "name": "",
+      "email": "",
+      "service": ""
+    },
+    {
+      "id": "14",
+      "name": "",
+      "email": "",
+      "service": ""
+    }
+  ]
 }
